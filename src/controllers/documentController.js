@@ -6,7 +6,7 @@ const { generateSummary, extractKeywords, calculateReadingTime, findSimilarDocum
 
 const listDocuments = async (req, res, next) => {
   try {
-    const { workspace_id, tag, favorite, search, sort = 'created_at', order = 'DESC' } = req.query;
+    const { workspace_id, tag, favorite, pinned, search, sort = 'created_at', order = 'DESC' } = req.query;
 
     let query = `
       SELECT d.*, 
@@ -30,6 +30,10 @@ const listDocuments = async (req, res, next) => {
     if (favorite === 'true') {
       query += ` AND (d.is_favorite = 1 OR d.id IN (SELECT document_id FROM bookmarks WHERE user_id = ?))`;
       params.push(req.user.id);
+    }
+
+    if (pinned === 'true') {
+      query += ` AND d.is_pinned = 1`;
     }
 
     if (tag) {
@@ -368,6 +372,24 @@ const batchExportDocuments = async (req, res, next) => {
   }
 };
 
+const togglePin = async (req, res, next) => {
+  try {
+    const docId = req.params.id;
+    const doc = await get('SELECT id, is_pinned FROM documents WHERE id = ?', [docId]);
+
+    if (!doc) {
+      return res.status(404).json({ success: false, error: 'Document not found.' });
+    }
+
+    const newPinned = doc.is_pinned === 1 ? 0 : 1;
+    await run('UPDATE documents SET is_pinned = ? WHERE id = ?', [newPinned, docId]);
+
+    res.json({ success: true, pinned: newPinned === 1 });
+  } catch (err) {
+    next(err);
+  }
+};
+
 module.exports = {
   listDocuments,
   getDocumentById,
@@ -377,5 +399,6 @@ module.exports = {
   toggleBookmark,
   downloadDocument,
   exportDocument,
-  batchExportDocuments
+  batchExportDocuments,
+  togglePin
 };

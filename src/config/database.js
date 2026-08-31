@@ -96,6 +96,7 @@ const initDatabase = async () => {
       content_text TEXT,
       summary TEXT,
       is_favorite INTEGER DEFAULT 0,
+      is_pinned INTEGER DEFAULT 0,
       created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
       updated_at DATETIME DEFAULT CURRENT_TIMESTAMP,
       FOREIGN KEY (workspace_id) REFERENCES workspaces(id) ON DELETE CASCADE,
@@ -198,6 +199,9 @@ const initDatabase = async () => {
   `;
 
   await exec(schema);
+  try {
+    await run('ALTER TABLE documents ADD COLUMN is_pinned INTEGER DEFAULT 0;');
+  } catch (e) {}
 };
 
 module.exports = {

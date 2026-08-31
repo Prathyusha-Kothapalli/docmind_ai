@@ -11,7 +11,8 @@ const {
   toggleBookmark,
   downloadDocument,
   exportDocument,
-  batchExportDocuments
+  batchExportDocuments,
+  togglePin
 } = require('../controllers/documentController');
 
 router.use(authenticate);
@@ -23,6 +24,7 @@ router.post('/upload', upload.single('file'), uploadDocument);
 router.put('/:id', updateDocument);
 router.delete('/:id', deleteDocument);
 router.post('/:id/bookmark', toggleBookmark);
+router.post('/:id/pin', togglePin);
 router.get('/:id/download', downloadDocument);
 router.get('/:id/export', exportDocument);
 
