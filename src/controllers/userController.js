@@ -3169,5 +3169,43 @@ class UserController {
     }
   }
 
+  static async getPreferences(req, res, next) {
+    try {
+      const { get } = require('../config/database');
+      const user = await get('SELECT theme_preference FROM users WHERE id = ?', [req.user.id]);
+      if (!user) {
+        return res.status(404).json({ success: false, error: 'User not found.' });
+      }
+      res.json({
+        success: true,
+        preferences: {
+          theme: user.theme_preference || 'dark',
+          language: 'en',
+          notifications: true
+        }
+      });
+    } catch (err) {
+      next(err);
+    }
+  }
+
+  static async updatePreferences(req, res, next) {
+    try {
+      const { run } = require('../config/database');
+      const { theme } = req.body;
+      if (!theme || !['light', 'dark', 'system'].includes(theme)) {
+        return res.status(400).json({ success: false, error: 'Invalid theme preference. Must be light, dark, or system.' });
+      }
+      await run('UPDATE users SET theme_preference = ? WHERE id = ?', [theme, req.user.id]);
+      res.json({
+        success: true,
+        message: 'Preferences updated successfully.',
+        preferences: { theme }
+      });
+    } catch (err) {
+      next(err);
+    }
+  }
+
 }
 module.exports = UserController;

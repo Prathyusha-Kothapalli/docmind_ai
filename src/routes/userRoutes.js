@@ -1,9 +1,13 @@
 const express = require('express');
 const router = express.Router();
 const { authenticate, requireRole } = require('../middleware/authMiddleware');
+const UserController = require('../controllers/userController');
 const { all } = require('../config/database');
 
 router.use(authenticate);
+
+router.get('/preferences', UserController.getPreferences);
+router.put('/preferences', UserController.updatePreferences);
 
 router.get('/', requireRole('admin'), async (req, res, next) => {
   try {
