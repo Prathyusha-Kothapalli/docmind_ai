@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="DocMind AI - Enterprise AI Document & Knowledge Management Platform">
+  <title>DocMind AI — Document & Knowledge Management Platform</title>
+  <link rel="stylesheet" href="/css/theme.css">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+  <!-- Auth Screen Overlay -->
+  <div id="auth-screen" class="auth-wrapper">
+    <div class="auth-card glass-panel">
+      <div class="auth-logo">
+        <div class="logo-brand" style="justify-content: center; font-size: 1.8rem;">
+          <div class="logo-icon">D</div>
+          <span>DocMind AI</span>
+        </div>
+        <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: 0.5rem;">
+          Enterprise AI Knowledge Base Platform
+        </p>
+      </div>
+
+      <!-- Login Form -->
+      <form id="login-form">
+        <h3 style="margin-bottom: 1.25rem;">Sign In</h3>
+        <div class="form-group">
+          <label class="form-label" for="login-email">Email Address</label>
+          <input type="email" id="login-email" class="form-control" placeholder="user@docmind.ai" required value="admin@docmind.ai">
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="login-password">Password</label>
+          <input type="password" id="login-password" class="form-control" placeholder="••••••••" required value="Demo@123">
+        </div>
+        <button type="submit" class="btn-primary" style="width: 100%; justify-content: center; margin-top: 1rem;">
+          Sign In to Workspace
+        </button>
+      </form>
+
+      <!-- Demo Login Helpers -->
+      <div style="margin-top: 1.5rem; padding-top: 1.25rem; border-top: 1px solid var(--border-color); text-align: center;">
+        <span style="font-size: 0.85rem; color: var(--text-subtle);">Quick Demo Accounts:</span>
+        <div style="display: flex; gap: 0.5rem; justify-content: center; margin-top: 0.5rem;">
+          <button type="button" class="btn-secondary" style="font-size: 0.8rem; padding: 0.4rem 0.8rem;" onclick="setDemoAuth('admin@docmind.ai')">Admin Demo</button>
+          <button type="button" class="btn-secondary" style="font-size: 0.8rem; padding: 0.4rem 0.8rem;" onclick="setDemoAuth('demo@docmind.ai')">User Demo</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Application Wrapper -->
+  <div id="app" class="app-container" style="display: none;">
+
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <div class="logo-brand" style="margin-bottom: 1.25rem;">
+          <div class="logo-icon">D</div>
+          <span>DocMind AI</span>
+        </div>
+        <button class="workspace-select-btn" onclick="openWorkspaceModal()">
+          <span id="current-workspace-name">AI Research</span>
+          <span style="font-size: 0.8rem; opacity: 0.7;">▼</span>
+        </button>
+      </div>
+
+      <nav class="nav-section">
+        <div class="nav-label">Navigation</div>
+        <a class="nav-item active" data-view="dashboard" onclick="switchView('dashboard')">
+          <span>📊</span> Dashboard
+        </a>
+        <a class="nav-item" data-view="documents" onclick="switchView('documents')">
+          <span>📄</span> Documents
+        </a>
+        <a class="nav-item" data-view="workspaces" onclick="switchView('workspaces')">
+          <span>📁</span> Workspaces
+        </a>
+        <a class="nav-item" data-view="bookmarks" onclick="switchView('bookmarks')">
+          <span>⭐</span> Bookmarks
+        </a>
+        <a class="nav-item" data-view="notes" onclick="switchView('notes')">
+          <span>📝</span> Notes & Highlights
+        </a>
+        <a class="nav-item" data-view="activity" onclick="switchView('activity')">
+          <span>📜</span> Activity Logs
+        </a>
+        <a class="nav-item" data-view="settings" onclick="switchView('settings')">
+          <span>⚙️</span> Settings
+        </a>
+      </nav>
+
+      <div style="margin-top: auto; padding: 1.25rem; border-top: 1px solid var(--border-color);">
+        <div style="font-size: 0.8rem; color: var(--text-subtle); display: flex; align-items: center; gap: 0.5rem;">
+          <span style="width: 8px; height: 8px; background: #10b981; border-radius: 50%;"></span>
+          Local AI Engine Active
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+      <!-- Topbar Header -->
+      <header class="topbar">
+        <div class="search-trigger" onclick="openSearchModal()">
+          <span>🔍</span>
+          <span>Search documents, notes, AI summaries...</span>
+          <span class="kbd-shortcut">Ctrl K</span>
+        </div>
+
+        <div class="topbar-actions">
+          <button class="icon-btn" onclick="toggleTheme()" title="Toggle Dark/Light Theme" id="theme-btn">
+            🌙
+          </button>
+          <button class="btn-primary" onclick="openUploadModal()">
+            <span>+</span> Upload File
+          </button>
+          <div class="user-profile-badge" onclick="switchView('settings')">
+            <div class="user-avatar" id="user-avatar-initials">A</div>
+            <div style="font-size: 0.88rem; font-weight: 600;" id="user-display-name">Admin</div>
+          </div>
+        </div>
+      </header>
+
+      <!-- View Area Containers -->
+      <div class="view-area">
+
+        <!-- DASHBOARD VIEW -->
+        <section id="view-dashboard" class="view-page active">
+          <div class="page-header">
+            <div>
+              <h2 class="page-title">Analytics Dashboard</h2>
+              <p class="page-subtitle">Real-time local AI document metrics and knowledge organization</p>
+            </div>
+          </div>
+
+          <!-- Metrics Row -->
+          <div class="metrics-grid">
+            <div class="metric-card glass-panel">
+              <div>
+                <div class="metric-title">Total Documents</div>
+                <div class="metric-val" id="metric-docs-count">0</div>
+              </div>
+              <div class="metric-icon" style="background: rgba(99, 102, 241, 0.15); color: #6366f1;">📄</div>
+            </div>
+
+            <div class="metric-card glass-panel">
+              <div>
+                <div class="metric-title">Total Storage</div>
+                <div class="metric-val" id="metric-storage">0 KB</div>
+              </div>
+              <div class="metric-icon" style="background: rgba(16, 185, 129, 0.15); color: #10b981;">💾</div>
+            </div>
+
+            <div class="metric-card glass-panel">
+              <div>
+                <div class="metric-title">Workspaces</div>
+                <div class="metric-val" id="metric-workspaces-count">0</div>
+              </div>
+              <div class="metric-icon" style="background: rgba(245, 158, 11, 0.15); color: #f59e0b;">📁</div>
+            </div>
+
+            <div class="metric-card glass-panel">
+              <div>
+                <div class="metric-title">Notes & Annotations</div>
+                <div class="metric-val" id="metric-notes-count">0</div>
+              </div>
+              <div class="metric-icon" style="background: rgba(236, 72, 153, 0.15); color: #ec4899;">📝</div>
+            </div>
+          </div>
+
+          <!-- Dashboard Charts Row -->
+          <div class="charts-grid">
+            <div class="chart-card glass-panel">
+              <h3 style="margin-bottom: 1rem; font-size: 1.1rem;">Workspace Document Storage Breakdown</h3>
+              <div id="workspace-chart-container" style="height: 200px; display: flex; align-items: flex-end; gap: 1.5rem; padding-top: 1rem;">
+                <!-- Dynamic SVG Bars -->
+              </div>
+            </div>
+
+            <div class="chart-card glass-panel">
+              <h3 style="margin-bottom: 1rem; font-size: 1.1rem;">Top AI Extracted Keywords</h3>
+              <div id="top-keywords-cloud" style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+                <!-- Dynamic Keyword Pills -->
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- DOCUMENTS VIEW -->
+        <section id="view-documents" class="view-page">
+          <div class="page-header">
+            <div>
+              <h2 class="page-title">Document Repository</h2>
+              <p class="page-subtitle">Manage, view, and extract local AI insights from uploaded files</p>
+            </div>
+          </div>
+
+          <!-- Filter Toolbar -->
+          <div class="document-filters">
+            <div class="filter-group">
+              <select id="filter-workspace" class="select-input" onchange="loadDocuments()">
+                <option value="">All Workspaces</option>
+              </select>
+              <select id="filter-file-type" class="select-input" onchange="loadDocuments()">
+                <option value="">All Formats</option>
+                <option value="pdf">PDF</option>
+                <option value="docx">DOCX</option>
+                <option value="xlsx">XLSX</option>
+                <option value="txt">TXT</option>
+              </select>
+              <input type="text" id="filter-search" class="text-input" placeholder="Filter title..." oninput="loadDocuments()">
+            </div>
+          </div>
+
+          <!-- Documents Cards Grid -->
+          <div id="documents-grid" class="documents-grid">
+            <!-- Dynamic Document Cards -->
+          </div>
+        </section>
+
+        <!-- WORKSPACES VIEW -->
+        <section id="view-workspaces" class="view-page">
+          <div class="page-header">
+            <div>
+              <h2 class="page-title">Workspaces</h2>
+              <p class="page-subtitle">Isolate documents and topics across project domains</p>
+            </div>
+            <button class="btn-primary" onclick="openWorkspaceModal()">+ New Workspace</button>
+          </div>
+          <div id="workspaces-grid" class="metrics-grid">
+            <!-- Dynamic Workspaces -->
+          </div>
+        </section>
+
+        <!-- BOOKMARKS VIEW -->
+        <section id="view-bookmarks" class="view-page">
+          <div class="page-header">
+            <div>
+              <h2 class="page-title">Favorite & Bookmarked Documents</h2>
+              <p class="page-subtitle">Quick access to pinned documents</p>
+            </div>
+          </div>
+          <div id="bookmarks-grid" class="documents-grid">
+            <!-- Dynamic Bookmarked Docs -->
+          </div>
+        </section>
+
+        <!-- NOTES VIEW -->
+        <section id="view-notes" class="view-page">
+          <div class="page-header">
+            <div>
+              <h2 class="page-title">Notes & Highlights</h2>
+              <p class="page-subtitle">Annotated thoughts, highlights, and document excerpts</p>
+            </div>
+          </div>
+          <div id="notes-list-container" style="display: grid; gap: 1rem;">
+            <!-- Dynamic Notes List -->
+          </div>
+        </section>
+
+        <!-- ACTIVITY VIEW -->
+        <section id="view-activity" class="view-page">
+          <div class="page-header">
+            <div>
+              <h2 class="page-title">System Activity Logs</h2>
+              <p class="page-subtitle">Audit history of uploads, notes, and user actions</p>
+            </div>
+          </div>
+          <div id="activity-timeline" class="glass-panel" style="padding: 1.5rem;">
+            <!-- Dynamic Activity Feed -->
+          </div>
+        </section>
+
+        <!-- SETTINGS VIEW -->
+        <section id="view-settings" class="view-page">
+          <div class="page-header">
+            <div>
+              <h2 class="page-title">Account & Platform Settings</h2>
+              <p class="page-subtitle">User preferences and security settings</p>
+            </div>
+          </div>
+          <div class="glass-panel" style="padding: 2rem; max-width: 600px;">
+            <form id="profile-form">
+              <div class="form-group">
+                <label class="form-label">Full Name</label>
+                <input type="text" id="profile-name" class="form-control" required>
+              </div>
+              <div class="form-group">
+                <label class="form-label">Email Address</label>
+                <input type="email" id="profile-email" class="form-control" disabled>
+              </div>
+              <div class="form-group">
+                <label class="form-label">Role</label>
+                <input type="text" id="profile-role" class="form-control" disabled>
+              </div>
+              <button type="submit" class="btn-primary" style="margin-top: 1rem;">Save Profile Updates</button>
+              <button type="button" class="btn-secondary" style="margin-left: 0.5rem;" onclick="logout()">Sign Out</button>
+            </form>
+          </div>
+        </section>
+
+      </div>
+    </main>
+  </div>
+
+  <!-- UPLOAD DOCUMENT MODAL -->
+  <div id="upload-modal" class="modal-overlay">
+    <div class="modal-container glass-panel">
+      <h3 style="margin-bottom: 1.25rem;">Upload Document</h3>
+      <form id="upload-form">
+        <div class="form-group">
+          <label class="form-label">Select Workspace</label>
+          <select id="upload-workspace-id" class="form-control" required></select>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Document Title (Optional)</label>
+          <input type="text" id="upload-title" class="form-control" placeholder="Leave blank to use filename">
+        </div>
+        <div class="form-group">
+          <label class="form-label">File (PDF, DOCX, XLSX, TXT)</label>
+          <input type="file" id="upload-file" class="form-control" accept=".pdf,.docx,.xlsx,.txt" required>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Tags (comma separated)</label>
+          <input type="text" id="upload-tags" class="form-control" placeholder="Research, Proposal, FY2026">
+        </div>
+        <div style="display: flex; gap: 0.75rem; justify-content: flex-end; margin-top: 1.5rem;">
+          <button type="button" class="btn-secondary" onclick="closeModal('upload-modal')">Cancel</button>
+          <button type="submit" class="btn-primary">Process & Upload</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- INTERACTIVE DOCUMENT READER MODAL -->
+  <div id="reader-modal" class="modal-overlay">
+    <div class="modal-container modal-large glass-panel" style="display: flex; flex-direction: column;">
+      <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1rem;">
+        <div>
+          <h3 id="reader-title" style="font-size: 1.3rem;">Document Reader</h3>
+          <span id="reader-meta" style="font-size: 0.85rem; color: var(--text-muted);">PDF • 2 MB</span>
+        </div>
+        <div style="display: flex; gap: 0.5rem;">
+          <button class="btn-secondary" id="reader-bookmark-btn">⭐ Bookmark</button>
+          <button class="btn-secondary" id="reader-download-btn">📥 Download</button>
+          <button class="btn-secondary" onclick="closeModal('reader-modal')">✕ Close</button>
+        </div>
+      </div>
+
+      <div class="reader-split">
+        <!-- Content Area -->
+        <div class="reader-viewer" id="reader-content-text">
+          <!-- Text Content -->
+        </div>
+
+        <!-- AI Insights Sidebar -->
+        <div class="reader-insights">
+          <div class="insight-box">
+            <h4 style="font-size: 0.95rem; margin-bottom: 0.5rem; color: var(--accent-primary);">🤖 Local AI Summary</h4>
+            <p id="reader-ai-summary" style="font-size: 0.85rem; color: var(--text-muted); line-height: 1.5;">Generating summary...</p>
+          </div>
+
+          <div class="insight-box">
+            <h4 style="font-size: 0.95rem; margin-bottom: 0.5rem;">🔑 Top Keywords</h4>
+            <div id="reader-keywords" style="display: flex; flex-wrap: wrap;"></div>
+          </div>
+
+          <div class="insight-box">
+            <h4 style="font-size: 0.95rem; margin-bottom: 0.5rem;">🔗 Similar Documents</h4>
+            <div id="reader-similar-docs" style="font-size: 0.85rem; color: var(--text-muted);">Finding matches...</div>
+          </div>
+
+          <div class="insight-box">
+            <h4 style="font-size: 0.95rem; margin-bottom: 0.5rem;">📝 Add Note</h4>
+            <textarea id="reader-note-input" class="form-control" style="height: 70px; font-size: 0.85rem;" placeholder="Write a note on this document..."></textarea>
+            <button class="btn-primary" style="font-size: 0.8rem; padding: 0.4rem 0.8rem; margin-top: 0.5rem;" onclick="submitReaderNote()">Save Note</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- WORKSPACE CREATION MODAL -->
+  <div id="workspace-modal" class="modal-overlay">
+    <div class="modal-container glass-panel">
+      <h3 style="margin-bottom: 1.25rem;">Create New Workspace</h3>
+      <form id="workspace-form">
+        <div class="form-group">
+          <label class="form-label">Workspace Name</label>
+          <input type="text" id="ws-name" class="form-control" placeholder="Engineering Research" required>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Description</label>
+          <input type="text" id="ws-desc" class="form-control" placeholder="Domain documentation & technical notes">
+        </div>
+        <div style="display: flex; gap: 0.75rem; justify-content: flex-end; margin-top: 1.5rem;">
+          <button type="button" class="btn-secondary" onclick="closeModal('workspace-modal')">Cancel</button>
+          <button type="submit" class="btn-primary">Create Workspace</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- GLOBAL SEARCH MODAL (Ctrl+K) -->
+  <div id="search-modal" class="modal-overlay">
+    <div class="modal-container glass-panel" style="max-width: 750px;">
+      <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1.25rem;">
+        <span style="font-size: 1.2rem;">🔍</span>
+        <input type="text" id="search-input" class="form-control" style="font-size: 1.1rem;" placeholder="Type to search all documents with local FTS5 engine..." oninput="executeGlobalSearch()">
+        <button class="btn-secondary" onclick="closeModal('search-modal')">ESC</button>
+      </div>
+
+      <div id="search-results-list" style="max-height: 400px; overflow-y: auto; display: grid; gap: 0.75rem;">
+        <!-- Live Search Results -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Container -->
+  <div id="toast-container" class="toast-container"></div>
+
+  <!-- JavaScript Modules -->
+  <script src="/js/api.js"></script>
+  <script src="/js/auth.js"></script>
+  <script src="/js/documents.js"></script>
+  <script src="/js/workspaces.js"></script>
+  <script src="/js/reader.js"></script>
+  <script src="/js/notes.js"></script>
+  <script src="/js/search.js"></script>
+  <script src="/js/analytics.js"></script>
+  <script src="/js/app.js"></script>
+
+</body>
+</html>
