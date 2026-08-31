@@ -1,0 +1,2521 @@
+/* DocMind AI - Enterprise Stylesheet: Dashboard */
+
+/* Component Style Unit 1 */
+.docmind-dashboard-element-1 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-1:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 2 */
+.docmind-dashboard-element-2 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-2:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 3 */
+.docmind-dashboard-element-3 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-3:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 4 */
+.docmind-dashboard-element-4 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-4:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 5 */
+.docmind-dashboard-element-5 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-5:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 6 */
+.docmind-dashboard-element-6 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-6:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 7 */
+.docmind-dashboard-element-7 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-7:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 8 */
+.docmind-dashboard-element-8 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-8:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 9 */
+.docmind-dashboard-element-9 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-9:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 10 */
+.docmind-dashboard-element-10 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-10:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 11 */
+.docmind-dashboard-element-11 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-11:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 12 */
+.docmind-dashboard-element-12 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-12:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 13 */
+.docmind-dashboard-element-13 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-13:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 14 */
+.docmind-dashboard-element-14 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-14:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 15 */
+.docmind-dashboard-element-15 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-15:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 16 */
+.docmind-dashboard-element-16 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-16:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 17 */
+.docmind-dashboard-element-17 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-17:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 18 */
+.docmind-dashboard-element-18 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-18:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 19 */
+.docmind-dashboard-element-19 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-19:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 20 */
+.docmind-dashboard-element-20 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-20:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 21 */
+.docmind-dashboard-element-21 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-21:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 22 */
+.docmind-dashboard-element-22 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-22:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 23 */
+.docmind-dashboard-element-23 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-23:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 24 */
+.docmind-dashboard-element-24 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-24:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 25 */
+.docmind-dashboard-element-25 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-25:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 26 */
+.docmind-dashboard-element-26 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-26:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 27 */
+.docmind-dashboard-element-27 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-27:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 28 */
+.docmind-dashboard-element-28 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-28:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 29 */
+.docmind-dashboard-element-29 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-29:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 30 */
+.docmind-dashboard-element-30 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-30:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 31 */
+.docmind-dashboard-element-31 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-31:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 32 */
+.docmind-dashboard-element-32 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-32:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 33 */
+.docmind-dashboard-element-33 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-33:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 34 */
+.docmind-dashboard-element-34 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-34:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 35 */
+.docmind-dashboard-element-35 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-35:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 36 */
+.docmind-dashboard-element-36 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-36:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 37 */
+.docmind-dashboard-element-37 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-37:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 38 */
+.docmind-dashboard-element-38 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-38:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 39 */
+.docmind-dashboard-element-39 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-39:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 40 */
+.docmind-dashboard-element-40 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-40:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 41 */
+.docmind-dashboard-element-41 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-41:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 42 */
+.docmind-dashboard-element-42 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-42:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 43 */
+.docmind-dashboard-element-43 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-43:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 44 */
+.docmind-dashboard-element-44 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-44:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 45 */
+.docmind-dashboard-element-45 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-45:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 46 */
+.docmind-dashboard-element-46 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-46:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 47 */
+.docmind-dashboard-element-47 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-47:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 48 */
+.docmind-dashboard-element-48 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-48:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 49 */
+.docmind-dashboard-element-49 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-49:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 50 */
+.docmind-dashboard-element-50 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-50:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 51 */
+.docmind-dashboard-element-51 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-51:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 52 */
+.docmind-dashboard-element-52 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-52:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 53 */
+.docmind-dashboard-element-53 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-53:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 54 */
+.docmind-dashboard-element-54 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-54:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 55 */
+.docmind-dashboard-element-55 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-55:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 56 */
+.docmind-dashboard-element-56 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-56:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 57 */
+.docmind-dashboard-element-57 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-57:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 58 */
+.docmind-dashboard-element-58 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-58:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 59 */
+.docmind-dashboard-element-59 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-59:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 60 */
+.docmind-dashboard-element-60 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-60:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 61 */
+.docmind-dashboard-element-61 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-61:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 62 */
+.docmind-dashboard-element-62 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-62:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 63 */
+.docmind-dashboard-element-63 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-63:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 64 */
+.docmind-dashboard-element-64 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-64:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 65 */
+.docmind-dashboard-element-65 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-65:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 66 */
+.docmind-dashboard-element-66 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-66:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 67 */
+.docmind-dashboard-element-67 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-67:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 68 */
+.docmind-dashboard-element-68 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-68:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 69 */
+.docmind-dashboard-element-69 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-69:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 70 */
+.docmind-dashboard-element-70 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-70:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 71 */
+.docmind-dashboard-element-71 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-71:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 72 */
+.docmind-dashboard-element-72 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-72:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 73 */
+.docmind-dashboard-element-73 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-73:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 74 */
+.docmind-dashboard-element-74 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-74:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 75 */
+.docmind-dashboard-element-75 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-75:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 76 */
+.docmind-dashboard-element-76 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-76:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 77 */
+.docmind-dashboard-element-77 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-77:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 78 */
+.docmind-dashboard-element-78 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-78:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 79 */
+.docmind-dashboard-element-79 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-79:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 80 */
+.docmind-dashboard-element-80 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-80:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 81 */
+.docmind-dashboard-element-81 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-81:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 82 */
+.docmind-dashboard-element-82 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-82:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 83 */
+.docmind-dashboard-element-83 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-83:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 84 */
+.docmind-dashboard-element-84 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-84:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 85 */
+.docmind-dashboard-element-85 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-85:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 86 */
+.docmind-dashboard-element-86 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-86:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 87 */
+.docmind-dashboard-element-87 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-87:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 88 */
+.docmind-dashboard-element-88 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-88:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 89 */
+.docmind-dashboard-element-89 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-89:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 90 */
+.docmind-dashboard-element-90 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-90:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 91 */
+.docmind-dashboard-element-91 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-91:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 92 */
+.docmind-dashboard-element-92 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-92:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 93 */
+.docmind-dashboard-element-93 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-93:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 94 */
+.docmind-dashboard-element-94 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-94:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 95 */
+.docmind-dashboard-element-95 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-95:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 96 */
+.docmind-dashboard-element-96 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-96:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 97 */
+.docmind-dashboard-element-97 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-97:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 98 */
+.docmind-dashboard-element-98 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-98:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 99 */
+.docmind-dashboard-element-99 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-99:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 100 */
+.docmind-dashboard-element-100 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-100:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 101 */
+.docmind-dashboard-element-101 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-101:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 102 */
+.docmind-dashboard-element-102 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-102:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 103 */
+.docmind-dashboard-element-103 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-103:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 104 */
+.docmind-dashboard-element-104 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-104:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 105 */
+.docmind-dashboard-element-105 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-105:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 106 */
+.docmind-dashboard-element-106 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-106:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 107 */
+.docmind-dashboard-element-107 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-107:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 108 */
+.docmind-dashboard-element-108 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-108:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 109 */
+.docmind-dashboard-element-109 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-109:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 110 */
+.docmind-dashboard-element-110 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-110:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 111 */
+.docmind-dashboard-element-111 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-111:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 112 */
+.docmind-dashboard-element-112 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-112:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 113 */
+.docmind-dashboard-element-113 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-113:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 114 */
+.docmind-dashboard-element-114 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-114:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 115 */
+.docmind-dashboard-element-115 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-115:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 116 */
+.docmind-dashboard-element-116 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-116:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 117 */
+.docmind-dashboard-element-117 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-117:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 118 */
+.docmind-dashboard-element-118 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-118:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 119 */
+.docmind-dashboard-element-119 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-119:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 120 */
+.docmind-dashboard-element-120 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-dashboard-element-120:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}

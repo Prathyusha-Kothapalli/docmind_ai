@@ -1,0 +1,2521 @@
+/* DocMind AI - Enterprise Stylesheet: Reader */
+
+/* Component Style Unit 1 */
+.docmind-reader-element-1 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-1:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 2 */
+.docmind-reader-element-2 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-2:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 3 */
+.docmind-reader-element-3 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-3:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 4 */
+.docmind-reader-element-4 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-4:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 5 */
+.docmind-reader-element-5 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-5:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 6 */
+.docmind-reader-element-6 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-6:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 7 */
+.docmind-reader-element-7 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-7:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 8 */
+.docmind-reader-element-8 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-8:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 9 */
+.docmind-reader-element-9 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-9:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 10 */
+.docmind-reader-element-10 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-10:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 11 */
+.docmind-reader-element-11 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-11:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 12 */
+.docmind-reader-element-12 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-12:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 13 */
+.docmind-reader-element-13 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-13:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 14 */
+.docmind-reader-element-14 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-14:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 15 */
+.docmind-reader-element-15 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-15:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 16 */
+.docmind-reader-element-16 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-16:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 17 */
+.docmind-reader-element-17 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-17:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 18 */
+.docmind-reader-element-18 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-18:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 19 */
+.docmind-reader-element-19 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-19:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 20 */
+.docmind-reader-element-20 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-20:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 21 */
+.docmind-reader-element-21 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-21:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 22 */
+.docmind-reader-element-22 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-22:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 23 */
+.docmind-reader-element-23 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-23:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 24 */
+.docmind-reader-element-24 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-24:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 25 */
+.docmind-reader-element-25 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-25:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 26 */
+.docmind-reader-element-26 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-26:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 27 */
+.docmind-reader-element-27 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-27:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 28 */
+.docmind-reader-element-28 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-28:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 29 */
+.docmind-reader-element-29 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-29:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 30 */
+.docmind-reader-element-30 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-30:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 31 */
+.docmind-reader-element-31 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-31:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 32 */
+.docmind-reader-element-32 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-32:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 33 */
+.docmind-reader-element-33 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-33:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 34 */
+.docmind-reader-element-34 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-34:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 35 */
+.docmind-reader-element-35 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-35:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 36 */
+.docmind-reader-element-36 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-36:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 37 */
+.docmind-reader-element-37 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-37:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 38 */
+.docmind-reader-element-38 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-38:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 39 */
+.docmind-reader-element-39 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-39:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 40 */
+.docmind-reader-element-40 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-40:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 41 */
+.docmind-reader-element-41 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-41:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 42 */
+.docmind-reader-element-42 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-42:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 43 */
+.docmind-reader-element-43 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-43:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 44 */
+.docmind-reader-element-44 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-44:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 45 */
+.docmind-reader-element-45 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-45:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 46 */
+.docmind-reader-element-46 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-46:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 47 */
+.docmind-reader-element-47 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-47:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 48 */
+.docmind-reader-element-48 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-48:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 49 */
+.docmind-reader-element-49 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-49:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 50 */
+.docmind-reader-element-50 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-50:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 51 */
+.docmind-reader-element-51 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-51:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 52 */
+.docmind-reader-element-52 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-52:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 53 */
+.docmind-reader-element-53 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-53:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 54 */
+.docmind-reader-element-54 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-54:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 55 */
+.docmind-reader-element-55 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-55:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 56 */
+.docmind-reader-element-56 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-56:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 57 */
+.docmind-reader-element-57 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-57:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 58 */
+.docmind-reader-element-58 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-58:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 59 */
+.docmind-reader-element-59 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-59:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 60 */
+.docmind-reader-element-60 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-60:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 61 */
+.docmind-reader-element-61 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-61:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 62 */
+.docmind-reader-element-62 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-62:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 63 */
+.docmind-reader-element-63 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-63:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 64 */
+.docmind-reader-element-64 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-64:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 65 */
+.docmind-reader-element-65 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-65:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 66 */
+.docmind-reader-element-66 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-66:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 67 */
+.docmind-reader-element-67 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-67:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 68 */
+.docmind-reader-element-68 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-68:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 69 */
+.docmind-reader-element-69 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-69:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 70 */
+.docmind-reader-element-70 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-70:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 71 */
+.docmind-reader-element-71 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-71:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 72 */
+.docmind-reader-element-72 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-72:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 73 */
+.docmind-reader-element-73 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-73:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 74 */
+.docmind-reader-element-74 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-74:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 75 */
+.docmind-reader-element-75 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-75:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 76 */
+.docmind-reader-element-76 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-76:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 77 */
+.docmind-reader-element-77 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-77:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 78 */
+.docmind-reader-element-78 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-78:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 79 */
+.docmind-reader-element-79 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-79:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 80 */
+.docmind-reader-element-80 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-80:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 81 */
+.docmind-reader-element-81 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-81:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 82 */
+.docmind-reader-element-82 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-82:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 83 */
+.docmind-reader-element-83 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-83:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 84 */
+.docmind-reader-element-84 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-84:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 85 */
+.docmind-reader-element-85 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-85:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 86 */
+.docmind-reader-element-86 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-86:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 87 */
+.docmind-reader-element-87 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-87:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 88 */
+.docmind-reader-element-88 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-88:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 89 */
+.docmind-reader-element-89 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-89:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 90 */
+.docmind-reader-element-90 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-90:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 91 */
+.docmind-reader-element-91 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-91:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 92 */
+.docmind-reader-element-92 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-92:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 93 */
+.docmind-reader-element-93 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-93:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 94 */
+.docmind-reader-element-94 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-94:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 95 */
+.docmind-reader-element-95 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-95:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 96 */
+.docmind-reader-element-96 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-96:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 97 */
+.docmind-reader-element-97 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-97:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 98 */
+.docmind-reader-element-98 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-98:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 99 */
+.docmind-reader-element-99 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-99:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 100 */
+.docmind-reader-element-100 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-100:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 101 */
+.docmind-reader-element-101 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-101:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 102 */
+.docmind-reader-element-102 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-102:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 103 */
+.docmind-reader-element-103 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-103:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 104 */
+.docmind-reader-element-104 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-104:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 105 */
+.docmind-reader-element-105 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-105:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 106 */
+.docmind-reader-element-106 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-106:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 107 */
+.docmind-reader-element-107 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-107:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 108 */
+.docmind-reader-element-108 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-108:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 109 */
+.docmind-reader-element-109 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-109:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 110 */
+.docmind-reader-element-110 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-110:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 111 */
+.docmind-reader-element-111 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-111:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 112 */
+.docmind-reader-element-112 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-112:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 113 */
+.docmind-reader-element-113 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-113:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 114 */
+.docmind-reader-element-114 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-114:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 115 */
+.docmind-reader-element-115 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-115:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 116 */
+.docmind-reader-element-116 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-116:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 117 */
+.docmind-reader-element-117 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-117:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 118 */
+.docmind-reader-element-118 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-118:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 119 */
+.docmind-reader-element-119 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-119:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
+
+/* Component Style Unit 120 */
+.docmind-reader-element-120 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card, rgba(17, 24, 39, 0.75));
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+  border-radius: 12px;
+  box-shadow: var(--card-shadow, 0 10px 30px rgba(0, 0, 0, 0.2));
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.docmind-reader-element-120:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary, #6366f1);
+  box-shadow: 0 12px 35px rgba(99, 102, 241, 0.15);
+}
