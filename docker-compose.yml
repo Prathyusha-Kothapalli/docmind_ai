@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  docmind-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: docmind_ai_platform
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      - JWT_SECRET=docmind-production-secret-jwt-key-2026
+    volumes:
+      - docmind_data:/app/data
+      - docmind_uploads:/app/uploads
+    restart: unless-stopped
+
+volumes:
+  docmind_data:
+  docmind_uploads:
