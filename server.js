@@ -12,6 +12,7 @@ const aiRoutes = require('./src/routes/aiRoutes');
 const analyticsRoutes = require('./src/routes/analyticsRoutes');
 const userRoutes = require('./src/routes/userRoutes');
 const auditRoutes = require('./src/routes/auditRoutes');
+const healthRoutes = require('./src/routes/healthRoutes');
 const errorHandler = require('./src/middleware/errorHandler');
 
 const app = express();
@@ -36,6 +37,7 @@ app.use('/api/ai', aiRoutes);
 app.use('/api/analytics', analyticsRoutes);
 app.use('/api/users', userRoutes);
 app.use('/api/audit-logs', auditRoutes);
+app.use('/api/health', healthRoutes);
 
 // SPA Fallback
 app.get('*', (req, res) => {
