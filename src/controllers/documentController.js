@@ -303,6 +303,71 @@ const downloadDocument = async (req, res, next) => {
   }
 };
 
+const exportDocument = async (req, res, next) => {
+  try {
+    const docId = req.params.id;
+    const format = (req.query.format || 'txt').toLowerCase();
+    const doc = await get('SELECT * FROM documents WHERE id = ?', [docId]);
+
+    if (!doc) {
+      return res.status(404).json({ success: false, error: 'Document not found.' });
+    }
+
+    const keywords = await all('SELECT keyword FROM document_keywords WHERE document_id = ?', [docId]);
+    const kwList = keywords.map(k => k.keyword).join(', ');
+
+    if (format === 'json') {
+      res.setHeader('Content-Type', 'application/json');
+      res.setHeader('Content-Disposition', `attachment; filename="${doc.title}_export.json"`);
+      return res.json({
+        id: doc.id,
+        title: doc.title,
+        summary: doc.summary,
+        content: doc.content_text,
+        keywords: kwList,
+        readingTimeMinutes: doc.reading_time_minutes,
+        createdAt: doc.created_at
+      });
+    } else if (format === 'md' || format === 'markdown') {
+      const mdContent = `# ${doc.title}\n\n**Summary:** ${doc.summary}\n\n**Keywords:** ${kwList}\n\n---\n\n${doc.content_text}`;
+      res.setHeader('Content-Type', 'text/markdown');
+      res.setHeader('Content-Disposition', `attachment; filename="${doc.title}_export.md"`);
+      return res.send(mdContent);
+    } else {
+      const txtContent = `TITLE: ${doc.title}\nSUMMARY: ${doc.summary}\nKEYWORDS: ${kwList}\n\nCONTENT:\n${doc.content_text}`;
+      res.setHeader('Content-Type', 'text/plain');
+      res.setHeader('Content-Disposition', `attachment; filename="${doc.title}_export.txt"`);
+      return res.send(txtContent);
+    }
+  } catch (err) {
+    next(err);
+  }
+};
+
+const batchExportDocuments = async (req, res, next) => {
+  try {
+    const { document_ids, format = 'json' } = req.body;
+    if (!Array.isArray(document_ids) || document_ids.length === 0) {
+      return res.status(400).json({ success: false, error: 'document_ids array is required.' });
+    }
+
+    const placeholders = document_ids.map(() => '?').join(',');
+    const docs = await all(`SELECT * FROM documents WHERE id IN (${placeholders})`, document_ids);
+
+    const exports = docs.map(doc => ({
+      id: doc.id,
+      title: doc.title,
+      summary: doc.summary,
+      reading_time_minutes: doc.reading_time_minutes,
+      created_at: doc.created_at
+    }));
+
+    res.json({ success: true, count: exports.length, documents: exports });
+  } catch (err) {
+    next(err);
+  }
+};
+
 module.exports = {
   listDocuments,
   getDocumentById,
@@ -310,5 +375,7 @@ module.exports = {
   updateDocument,
   deleteDocument,
   toggleBookmark,
-  downloadDocument
+  downloadDocument,
+  exportDocument,
+  batchExportDocuments
 };
