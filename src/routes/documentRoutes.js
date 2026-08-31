@@ -9,17 +9,21 @@ const {
   updateDocument,
   deleteDocument,
   toggleBookmark,
-  downloadDocument
+  downloadDocument,
+  exportDocument,
+  batchExportDocuments
 } = require('../controllers/documentController');
 
 router.use(authenticate);
 
 router.get('/', listDocuments);
+router.post('/batch-export', batchExportDocuments);
 router.get('/:id', getDocumentById);
 router.post('/upload', upload.single('file'), uploadDocument);
 router.put('/:id', updateDocument);
 router.delete('/:id', deleteDocument);
 router.post('/:id/bookmark', toggleBookmark);
 router.get('/:id/download', downloadDocument);
+router.get('/:id/export', exportDocument);
 
 module.exports = router;
